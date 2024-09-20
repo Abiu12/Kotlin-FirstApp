@@ -8,14 +8,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MenuActivity">
-
-
     <Button
         android:id="@+id/btnSaludarApp"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="#ED1919"
         android:text="Saludar App" />
+    <Button
+        android:id="@+id/btnImcApp"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ED1919"
+        android:text="IMC"
+        >
+    </Button>
 
 
 
