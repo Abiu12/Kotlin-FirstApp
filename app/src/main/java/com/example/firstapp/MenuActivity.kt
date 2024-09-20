@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.firstapp.imccalculator.ImcActivity
 
 class MenuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,9 +21,18 @@ class MenuActivity : AppCompatActivity() {
         }
         val btnStartApp = findViewById<Button>(R.id.btnSaludarApp)
         btnStartApp.setOnClickListener{navigateSaludarApp()}
+        val btnImcApp = findViewById<Button>(R.id.btnImcApp)
+        btnImcApp.setOnClickListener{
+            navigateIMCApp()
+        }
+
     }
-    fun navigateSaludarApp(){
+    private fun navigateSaludarApp(){
         val intent = Intent(this,FirstAppActivity::class.java)
+        startActivity(intent)
+    }
+    private fun navigateIMCApp(){
+        val intent = Intent(this,ImcActivity::class.java)
         startActivity(intent)
     }
 }

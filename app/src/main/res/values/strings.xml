@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">FirstApp</string>
+    <string name="male">Hombre</string>
+    <string name="female">Mujer</string>
+    <string name="height">Altura</string>
+    <string name="weight">Peso</string>
+    <string name="age">Edad</string>
+    <string name="calculate">Calcular</string>
+    <string name="your_result">Tu resultado</string>
+    <string name="recalculate">Recalcular</string>
+    <string name="normal">Normal</string>
+    <string name="anormal">Anormal</string>
+    <string name="error">Error</string>
 </resources>
